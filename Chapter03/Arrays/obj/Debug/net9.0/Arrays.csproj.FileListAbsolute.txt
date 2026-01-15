@@ -1,0 +1,14 @@
+C:\cs13net9\Chapter03\Arrays\bin\Debug\net9.0\Arrays.exe
+C:\cs13net9\Chapter03\Arrays\bin\Debug\net9.0\Arrays.deps.json
+C:\cs13net9\Chapter03\Arrays\bin\Debug\net9.0\Arrays.runtimeconfig.json
+C:\cs13net9\Chapter03\Arrays\bin\Debug\net9.0\Arrays.dll
+C:\cs13net9\Chapter03\Arrays\bin\Debug\net9.0\Arrays.pdb
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfoInputs.cache
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfo.cs
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.csproj.CoreCompileInputs.cache
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.dll
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\refint\Arrays.dll
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.pdb
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\Arrays.genruntimeconfig.cache
+C:\cs13net9\Chapter03\Arrays\obj\Debug\net9.0\ref\Arrays.dll

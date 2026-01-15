@@ -1,0 +1,14 @@
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.AssemblyInfoInputs.cache
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.AssemblyInfo.cs
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.csproj.CoreCompileInputs.cache
+C:\cs13net9\Chapter03\IterrationStatements\bin\Debug\net9.0\IterrationStatements.exe
+C:\cs13net9\Chapter03\IterrationStatements\bin\Debug\net9.0\IterrationStatements.deps.json
+C:\cs13net9\Chapter03\IterrationStatements\bin\Debug\net9.0\IterrationStatements.runtimeconfig.json
+C:\cs13net9\Chapter03\IterrationStatements\bin\Debug\net9.0\IterrationStatements.dll
+C:\cs13net9\Chapter03\IterrationStatements\bin\Debug\net9.0\IterrationStatements.pdb
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.dll
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\refint\IterrationStatements.dll
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.pdb
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\IterrationStatements.genruntimeconfig.cache
+C:\cs13net9\Chapter03\IterrationStatements\obj\Debug\net9.0\ref\IterrationStatements.dll

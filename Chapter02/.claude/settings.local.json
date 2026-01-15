@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet:*)",
+      "Bash(ng version:*)",
+      "Bash(ng new:*)",
+      "Bash(ng serve)",
+      "Bash(timeout 10 tail:*)"
+    ]
+  }
+}

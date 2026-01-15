@@ -1,0 +1,14 @@
+C:\cs13net9\Chapter03\ToBase64String\bin\Debug\net9.0\ToBase64String.exe
+C:\cs13net9\Chapter03\ToBase64String\bin\Debug\net9.0\ToBase64String.deps.json
+C:\cs13net9\Chapter03\ToBase64String\bin\Debug\net9.0\ToBase64String.runtimeconfig.json
+C:\cs13net9\Chapter03\ToBase64String\bin\Debug\net9.0\ToBase64String.dll
+C:\cs13net9\Chapter03\ToBase64String\bin\Debug\net9.0\ToBase64String.pdb
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.AssemblyInfoInputs.cache
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.AssemblyInfo.cs
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.csproj.CoreCompileInputs.cache
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.dll
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\refint\ToBase64String.dll
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.pdb
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ToBase64String.genruntimeconfig.cache
+C:\cs13net9\Chapter03\ToBase64String\obj\Debug\net9.0\ref\ToBase64String.dll

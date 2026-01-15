@@ -1,0 +1,14 @@
+C:\cs13net9\chapter03\SelectionStatements\bin\Debug\net9.0\SelectionStatements.exe
+C:\cs13net9\chapter03\SelectionStatements\bin\Debug\net9.0\SelectionStatements.deps.json
+C:\cs13net9\chapter03\SelectionStatements\bin\Debug\net9.0\SelectionStatements.runtimeconfig.json
+C:\cs13net9\chapter03\SelectionStatements\bin\Debug\net9.0\SelectionStatements.dll
+C:\cs13net9\chapter03\SelectionStatements\bin\Debug\net9.0\SelectionStatements.pdb
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.AssemblyInfoInputs.cache
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.AssemblyInfo.cs
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.csproj.CoreCompileInputs.cache
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.dll
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\refint\SelectionStatements.dll
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.pdb
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\SelectionStatements.genruntimeconfig.cache
+C:\cs13net9\chapter03\SelectionStatements\obj\Debug\net9.0\ref\SelectionStatements.dll

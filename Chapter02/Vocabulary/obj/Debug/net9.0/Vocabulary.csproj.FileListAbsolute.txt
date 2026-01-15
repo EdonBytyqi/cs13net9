@@ -1,0 +1,14 @@
+C:\cs13net9\Chapter02\Vocabulary\bin\Debug\net9.0\Vocabulary.exe
+C:\cs13net9\Chapter02\Vocabulary\bin\Debug\net9.0\Vocabulary.deps.json
+C:\cs13net9\Chapter02\Vocabulary\bin\Debug\net9.0\Vocabulary.runtimeconfig.json
+C:\cs13net9\Chapter02\Vocabulary\bin\Debug\net9.0\Vocabulary.dll
+C:\cs13net9\Chapter02\Vocabulary\bin\Debug\net9.0\Vocabulary.pdb
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.AssemblyInfoInputs.cache
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.AssemblyInfo.cs
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.csproj.CoreCompileInputs.cache
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.dll
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\refint\Vocabulary.dll
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.pdb
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\Vocabulary.genruntimeconfig.cache
+C:\cs13net9\Chapter02\Vocabulary\obj\Debug\net9.0\ref\Vocabulary.dll
