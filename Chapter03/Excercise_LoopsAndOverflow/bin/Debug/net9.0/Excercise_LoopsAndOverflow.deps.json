@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Excercise_LoopsAndOverflow/1.0.0": {
+        "runtime": {
+          "Excercise_LoopsAndOverflow.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Excercise_LoopsAndOverflow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
