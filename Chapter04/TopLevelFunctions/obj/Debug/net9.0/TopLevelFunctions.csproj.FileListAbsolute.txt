@@ -1,0 +1,15 @@
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.AssemblyInfoInputs.cache
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.AssemblyInfo.cs
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.csproj.CoreCompileInputs.cache
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.sourcelink.json
+C:\cs13net9\Chapter04\TopLevelFunctions\bin\Debug\net9.0\TopLevelFunctions.exe
+C:\cs13net9\Chapter04\TopLevelFunctions\bin\Debug\net9.0\TopLevelFunctions.deps.json
+C:\cs13net9\Chapter04\TopLevelFunctions\bin\Debug\net9.0\TopLevelFunctions.runtimeconfig.json
+C:\cs13net9\Chapter04\TopLevelFunctions\bin\Debug\net9.0\TopLevelFunctions.dll
+C:\cs13net9\Chapter04\TopLevelFunctions\bin\Debug\net9.0\TopLevelFunctions.pdb
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.dll
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\refint\TopLevelFunctions.dll
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.pdb
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\TopLevelFunctions.genruntimeconfig.cache
+C:\cs13net9\Chapter04\TopLevelFunctions\obj\Debug\net9.0\ref\TopLevelFunctions.dll

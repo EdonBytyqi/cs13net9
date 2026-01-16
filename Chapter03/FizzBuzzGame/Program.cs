@@ -23,3 +23,10 @@ for (int i = 1; i <= 100; i++)
         Console.WriteLine(i);
     }
 }
+
+int x = 3;
+int y = x++;
+Console.WriteLine($"x: {x}, y: {y}"); // x: 4, y: 3
+
+int z = y;
+Console.WriteLine($"z: {z}"); // z: 3
