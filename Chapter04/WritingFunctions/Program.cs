@@ -5,4 +5,7 @@
 //decimal taxToPay = CalculateTax(amount: 149, twoLetterRegionCode: "FR");
 //WriteLine($"You must pay {taxToPay:C} in Tax.");
 
-RunCardinalToOrdinal();
+//RunCardinalToOrdinal();
+//RunFactorial();
+//RunFibImperative();
+RunFibFunctional();

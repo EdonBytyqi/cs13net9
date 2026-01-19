@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KBzvxD6KlVs=",
+  "success": true,
+  "projectFilePath": "C:\\cs13net9\\Chapter05\\PacktLibraryNet2\\PacktLibraryNet2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edonb\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\edonb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
