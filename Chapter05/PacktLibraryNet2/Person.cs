@@ -33,4 +33,16 @@ public class Person
         Instantiated = DateTime.Now;
     }
     #endregion
+
+    #region Methods
+    public void WriteToConsole()
+    {
+        WriteLine($"{Name} was born on a {Born:dddd}");
+    }
+
+    public string GetOrigin()
+    {
+        return $"{Name} was born on {HomePlanet}";
+    }
+    #endregion
 };

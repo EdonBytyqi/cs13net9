@@ -5,11 +5,19 @@ ConfigureConsole();
 Person bob = new();
 WriteLine(bob);
 
-Book book = new()
+/* Book book = new()
 {
   Isbn = "0-123456-78-9",
   Title = "The Art of C#"
+};*/
+
+Book book = new(isbn: "1231-12313", title: "C# baba")
+{
+  Author = "Mark J. Price",
+  PageCount = 1000
 };
+
+
 
 #region Setting and outputting field values
 
@@ -112,6 +120,10 @@ WriteLine(format:
   arg0: gunny.Name,
   arg1: gunny.HomePlanet,
   arg2: gunny.Instantiated);
+#endregion
+#region Methods
+bob.WriteToConsole();
+WriteLine(bob.GetOrigin());
 #endregion
 
 
