@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v9.0": {
       "PeopleApp/1.0.0": {
         "dependencies": {
+          "PacktLibraryModern": "1.0.0",
           "PacktLibraryNet2": "1.0.0"
         },
         "runtime": {
           "PeopleApp.dll": {}
+        }
+      },
+      "PacktLibraryModern/1.0.0": {
+        "runtime": {
+          "PacktLibraryModern.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PacktLibraryNet2/1.0.0": {
@@ -26,6 +35,11 @@
   },
   "libraries": {
     "PeopleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PacktLibraryModern/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

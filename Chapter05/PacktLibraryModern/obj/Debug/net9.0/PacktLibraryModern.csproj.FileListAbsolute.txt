@@ -1,0 +1,12 @@
+C:\cs13net9\Chapter05\PacktLibraryModern\bin\Debug\net9.0\PacktLibraryModern.deps.json
+C:\cs13net9\Chapter05\PacktLibraryModern\bin\Debug\net9.0\PacktLibraryModern.dll
+C:\cs13net9\Chapter05\PacktLibraryModern\bin\Debug\net9.0\PacktLibraryModern.pdb
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.GeneratedMSBuildEditorConfig.editorconfig
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.AssemblyInfoInputs.cache
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.AssemblyInfo.cs
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.csproj.CoreCompileInputs.cache
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.sourcelink.json
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.dll
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\refint\PacktLibraryModern.dll
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\PacktLibraryModern.pdb
+C:\cs13net9\Chapter05\PacktLibraryModern\obj\Debug\net9.0\ref\PacktLibraryModern.dll

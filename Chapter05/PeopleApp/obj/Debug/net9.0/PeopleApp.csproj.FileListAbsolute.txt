@@ -17,3 +17,5 @@ C:\cs13net9\Chapter05\PeopleApp\obj\Debug\net9.0\refint\PeopleApp.dll
 C:\cs13net9\Chapter05\PeopleApp\obj\Debug\net9.0\PeopleApp.pdb
 C:\cs13net9\Chapter05\PeopleApp\obj\Debug\net9.0\PeopleApp.genruntimeconfig.cache
 C:\cs13net9\Chapter05\PeopleApp\obj\Debug\net9.0\ref\PeopleApp.dll
+C:\cs13net9\Chapter05\PeopleApp\bin\Debug\net9.0\PacktLibraryModern.dll
+C:\cs13net9\Chapter05\PeopleApp\bin\Debug\net9.0\PacktLibraryModern.pdb

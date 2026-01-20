@@ -1,46 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "PacktLibraryModern/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/PacktLibraryModern.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PacktLibraryModern.dll": {}
-        }
-      },
-      "PacktLibraryNet2/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/PacktLibraryNet2.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PacktLibraryNet2.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "PacktLibraryModern/1.0.0": {
-      "type": "project",
-      "path": "../PacktLibraryModern/PacktLibraryModern.csproj",
-      "msbuildProject": "../PacktLibraryModern/PacktLibraryModern.csproj"
-    },
-    "PacktLibraryNet2/1.0.0": {
-      "type": "project",
-      "path": "../PacktLibraryNet2/PacktLibraryNet2.csproj",
-      "msbuildProject": "../PacktLibraryNet2/PacktLibraryNet2.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "PacktLibraryModern >= 1.0.0",
-      "PacktLibraryNet2 >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\edonb\\.nuget\\packages\\": {},
@@ -49,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\cs13net9\\Chapter05\\PeopleApp\\PeopleApp.csproj",
-      "projectName": "PeopleApp",
-      "projectPath": "C:\\cs13net9\\Chapter05\\PeopleApp\\PeopleApp.csproj",
+      "projectUniqueName": "C:\\cs13net9\\Chapter05\\PacktLibraryModern\\PacktLibraryModern.csproj",
+      "projectName": "PacktLibraryModern",
+      "projectPath": "C:\\cs13net9\\Chapter05\\PacktLibraryModern\\PacktLibraryModern.csproj",
       "packagesPath": "C:\\Users\\edonb\\.nuget\\packages\\",
-      "outputPath": "C:\\cs13net9\\Chapter05\\PeopleApp\\obj\\",
+      "outputPath": "C:\\cs13net9\\Chapter05\\PacktLibraryModern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,14 +38,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\cs13net9\\Chapter05\\PacktLibraryModern\\PacktLibraryModern.csproj": {
-              "projectPath": "C:\\cs13net9\\Chapter05\\PacktLibraryModern\\PacktLibraryModern.csproj"
-            },
-            "C:\\cs13net9\\Chapter05\\PacktLibraryNet2\\PacktLibraryNet2.csproj": {
-              "projectPath": "C:\\cs13net9\\Chapter05\\PacktLibraryNet2\\PacktLibraryNet2.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
