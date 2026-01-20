@@ -124,6 +124,11 @@ WriteLine(format:
 #region Methods
 bob.WriteToConsole();
 WriteLine(bob.GetOrigin());
+WriteLine(bob.SayHello());
+WriteLine(bob.SayHello("Emily"));
+WriteLine(bob.OptionalParameters());
+WriteLine(bob.OptionalParameters("Stop!", 2.3));
+WriteLine(bob.OptionalParameters(number: 3.4, command: "Go!"));
 #endregion
 
 
