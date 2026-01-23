@@ -126,9 +126,34 @@ bob.WriteToConsole();
 WriteLine(bob.GetOrigin());
 WriteLine(bob.SayHello());
 WriteLine(bob.SayHello("Emily"));
-WriteLine(bob.OptionalParameters());
-WriteLine(bob.OptionalParameters("Stop!", 2.3));
-WriteLine(bob.OptionalParameters(number: 3.4, command: "Go!"));
+WriteLine(bob.OptionalParameters(command: "Stop!", number: 2.3, count: 3));
+WriteLine(bob.OptionalParameters(command: "Stop!", number: 2.3, count: 3));
+WriteLine(bob.OptionalParameters(number: 3.4, command: "Go!", count: 3));
+#endregion
+
+#region Parameters
+int a = 10;
+int b = 20;
+int c = 30;
+int d = 40;
+int e = 50;
+int f = 60;
+int g = 70;
+
+WriteLine($"Before: a={a},b={b},c={c},d={d}");
+WriteLine($"Before: e={e},f={f},g={g}, he doesnt exist yet!");
+
+bob.PassingParameters(a, b, ref c, out d);
+WriteLine($"After: a={a},b={b},c={c},d={d}");
+
+// Simplified C# 7 or later syntax for the out parameter
+bob.PassingParameters(e, f, ref g, out int h);
+WriteLine($"After: e={e},f={f},g={g},h={h}");
+
+bob.ParamsParameters("Sum using commas", 3, 6, 1, 2);
+bob.ParamsParameters("Sum using collection expression", 3, 6, 1, 2);
+bob.ParamsParameters("Sum using explicit array", 3, 6, 1, 2);
+bob.ParamsParameters("Sum (empty)");
 #endregion
 
 
