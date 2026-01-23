@@ -2,7 +2,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Packt.Shared;
 
-public class Person
+public partial class Person
 {
     #region  Fields
     public string? Name;
@@ -92,4 +92,42 @@ public class Person
     }
     #endregion
 
+    #region Tuples
+    // Method that returns a Tule:(string,int)
+    public (string, int) GetFruit()
+    {
+        return ("Apples", 5);
+    }
+
+    //Deconstructors: Break down this object into parts
+    public void Deconstruct(out string? name, out DateTimeOffset dob)
+    {
+        name = Name;
+        dob = Born;
+    }
+    public void Deconstruct(out string? name, out DateTimeOffset dob, out WondersOfTheAncientWords fav)
+    {
+        name = Name;
+        dob = Born;
+        fav = FavoriteAncientWonder;
+    }
+    #endregion
+
+    #region Local Functions, Inner Function, Nested Functions
+    //Method with a local function
+    public static int Factorial(int number)
+    {
+        if (number < 0)
+        {
+            throw new ArgumentException($"{nameof(number)} cannot be less than zero.");
+        }
+        return localFactorial(number);
+
+        int localFactorial(int localNumber)//Local function
+        {
+            if (localNumber == 0) return 1;
+            return localNumber * localFactorial(localNumber - 1);
+        }
+    }
+    #endregion
 };
