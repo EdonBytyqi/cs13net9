@@ -1,4 +1,6 @@
 ﻿using Packt.Shared;
+using Fruit = (string Name, int Number); //Aliasing a tuple
+
 
 ConfigureConsole();
 
@@ -154,6 +156,28 @@ bob.ParamsParameters("Sum using commas", 3, 6, 1, 2);
 bob.ParamsParameters("Sum using collection expression", 3, 6, 1, 2);
 bob.ParamsParameters("Sum using explicit array", 3, 6, 1, 2);
 bob.ParamsParameters("Sum (empty)");
+#endregion
+
+#region Tuples
+(string, int) fruit = bob.GetFruit();
+WriteLine($"{fruit.Item1}, {fruit.Item2} there are.");
+
+var thing1 = ("Neville", 4);
+WriteLine($"{thing1.Item1} has {thing1.Item2} children");
+
+var thing2 = (bob.Name, bob.Children.Count);
+WriteLine($"{thing2.Name} has {thing2.Count} children");
+
+Fruit fruitNameObj = bob.GetFruit();
+//Deconstructing tuples
+(string fruitName, int fruitNumber) = bob.GetFruit();
+WriteLine($"Deconstructed tuple: {fruitName}, {fruitNumber}");
+
+var (name1, dob1) = bob; //Implicity calls the Deconstruct method
+WriteLine($"Deconstructed person: {name1}, {dob1}");
+
+var (name2, dob2, fav2) = bob; //Implicity calls the Deconstruct method
+WriteLine($"Deconstructed person: {name2}, {dob2}, {fav2}");
 #endregion
 
 
