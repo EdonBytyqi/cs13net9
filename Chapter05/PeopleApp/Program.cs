@@ -180,4 +180,18 @@ var (name2, dob2, fav2) = bob; //Implicity calls the Deconstruct method
 WriteLine($"Deconstructed person: {name2}, {dob2}, {fav2}");
 #endregion
 
+#region Local Functions
+// Change to -1 to make the exception handling code execute
+int number = 5;
+
+try
+{
+  WriteLine($"{number}! is {Person.Factorial(number)}");
+}
+catch (Exception ex)
+{
+  WriteLine($"{ex.GetType()} says: {ex.Message} number was {number}");
+}
+#endregion
+
 
