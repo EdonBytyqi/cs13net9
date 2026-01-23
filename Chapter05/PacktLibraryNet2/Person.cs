@@ -7,7 +7,7 @@ public partial class Person
     #region  Fields
     public string? Name;
     public DateTimeOffset Born;
-    public WondersOfTheAncientWords FavoriteAncientWonder;
+    //public WondersOfTheAncientWords FavoriteAncientWonder; //This has benn moved to PersonAutoGen.cs as a property
     public WondersOfTheAncientWords BucketList;
     public List<Person> Children = new();
     public const string Species = "Homo sapiens";
