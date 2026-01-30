@@ -4,7 +4,7 @@ public partial class Person
 {
     public string? FavoriteIceCream { get; set; }
     private string? _favoritePrimaryColor;
-    private WondersOfTheAncientWorld _favoriteAncientWonder;
+    private WondersOfTheAncientWorlds _favoriteAncientWonder;
     #region Properties: Methods to get and/or set data or state
     //A readonly property defined using C# 1 to 5 syntax
     public string Origin
@@ -49,7 +49,7 @@ public partial class Person
         }
     }
 
-    public WondersOfTheAncientWorld FavoriteAncientWonder
+    public WondersOfTheAncientWorlds FavoriteAncientWonder
     {
         get { return _favoriteAncientWonder; }
         set
@@ -64,16 +64,39 @@ public partial class Person
 
                 );
             }
-            if (!Enum.IsDefined(typeof(WondersOfTheAncientWorld), value))
+            if (!Enum.IsDefined(typeof(WondersOfTheAncientWorlds), value))
             {
                 throw new ArgumentException(
-                    $"{value} is not a member of the WondersOfTheAncientWorld enum.",
+                    $"{value} is not a member of the WondersOfTheAncientWorlds enum.",
                     paramName: nameof(FavoriteAncientWonder)
 
                 );
             }
 
             _favoriteAncientWonder = value;
+        }
+    }
+    #endregion
+
+    #region Indexers: Properties that use array syntax to access them
+    public Person this[int index]
+    {
+        get
+        {
+            return Children[index];
+        }
+        set
+        {
+            Children[index] = value;
+        }
+    }
+
+    //A readonly string indexer
+    public Person this[string name]
+    {
+        get
+        {
+            return Children.Find(p => p.Name == name);
         }
     }
     #endregion
