@@ -54,7 +54,7 @@ WriteLine(format: "{0} was born on {1:D}.", // Long date.
 #endregion
 
 #region Favorite ancient wonder
-bob.FavoriteAncientWonder = WondersOfTheAncientWords.StatueOfZeusAtOlympia;
+bob.FavoriteAncientWonder = WondersOfTheAncientWorlds.StatueOfZeusAtOlympia;
 WriteLine(
   format: "{0}'s favorite ancient wonder is {1}. Its integer is {2}.",
   arg0: bob.Name,
@@ -63,8 +63,8 @@ WriteLine(
 );
 
 bob.BucketList =
-  WondersOfTheAncientWords.HangingGardensOfBabylon
-  | WondersOfTheAncientWords.MausoleumAtHalicarnassus;
+  WondersOfTheAncientWorlds.HangingGardensOfBabylon
+  | WondersOfTheAncientWorlds.MausoleumAtHalicarnassus;
 WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}.");
 #endregion
 
@@ -217,9 +217,90 @@ try
 }
 catch (Exception ex)
 {
-  WriteLine("Tried to set {0} to '{1}' : {2}, nameof(sam.FavoritePrimaryColor), color, ex.Message");
+  WriteLine($"Tried to set {nameof(sam.FavoritePrimaryColor)} to '{color}' : {ex.Message}");
 }
 
 #endregion
 
+#region indexers
+sam.Children.Add(new()
+{
+  Name = "Charlie",
+  Born = new(2010, 3, 18, 0, 0, 0, TimeSpan.Zero)
+});
+sam.Children.Add(new()
+{
+  Name = "Ella",
+  Born = new(2020, 12, 24, 0, 0, 0, TimeSpan.Zero)
+});
+//Get using Children list
+WriteLine($"Sams first child is {sam.Children[0].Name}");
+WriteLine($"Sams second child is {sam.Children[1].Name}");
+//Get using the int indexer
+WriteLine($"Sams first child is {sam[0].Name}");
+WriteLine($"Sams second child is {sam[1].Name}");
+//Get using the string indexer
+WriteLine($"Sams child named Ella is {sam["Ella"].Age} years old.");
+#endregion
 
+#region pattern matching
+//An array contaning a mix of passenger types
+Passenger[] passengers =
+{
+  new FirstClassPassenger {AirMiles = 1_419, Name = "Suman"},
+  new FirstClassPassenger {AirMiles = 16_562, Name = "Lucy"},
+  new BusinessClassPassenger { Name = "Janice"},
+  new CoachClassPassenger {CarryOnKG = 25.7, Name = "Dave"},
+  new CoachClassPassenger {CarryOnKG = 0, Name = "Amit"},
+};
+
+foreach (Passenger passenger in passengers)
+{
+  decimal flightCost = passenger switch
+  {
+    /* C# 8 Syntax FirstClassPassenger p when p.AirMiles > 35_000 => 1_500M,
+    FirstClassPassenger p when p.AirMiles > 15_000 => 1_750M,
+    FirstClassPassenger _ => 2_000M, */
+    // C# 9 or later syntax
+    FirstClassPassenger p => p.AirMiles switch
+    {
+      > 35_000 => 1_500M,
+      > 15_000 => 1_750M,
+      _ => 2_000M
+    },
+    BusinessClassPassenger _ => 2_000M,
+    CoachClassPassenger p when p.CarryOnKG < 10.0 => 500M,
+    CoachClassPassenger _ => 650M,
+    _ => 800M,
+  };
+  WriteLine($"Flight costs {flightCost: C} for {passenger}");
+}
+#endregion
+
+#region working with record types
+ImmutablePerson jeff = new()
+{
+  FirstName = "Jeff",
+  LastName = "Winger"
+};
+// jeff.FirstName = "Geoff"; // Cannot assign to init-only property after initialization
+
+ImmutableVehicle car = new()
+{
+  Brand = "Mazda MX-5 RF",
+  Color = "Sould Red Crystal Metallic",
+  Wheels = 4
+};
+
+ImmutableVehicle repaintedCar = car with { Color = "Polymetal Grey Metallic" };
+WriteLine($"Original car color was {car.Color}");
+WriteLine($"New car color is {repaintedCar.Color}");
+
+AnimalClass ac1 = new() { Name = "Rex" };
+AnimalClass ac2 = new() { Name = "Rex" };
+WriteLine($"ac1 == ac2: {ac1 == ac2}");
+
+AnimalRecord ar1 = new() { Name = "Rex" };
+AnimalRecord ar2 = new() { Name = "Rex" };
+WriteLine($"ar1 == ar2: {ar1 == ar2}");
+#endregion
