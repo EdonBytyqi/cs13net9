@@ -303,4 +303,9 @@ WriteLine($"ac1 == ac2: {ac1 == ac2}");
 AnimalRecord ar1 = new() { Name = "Rex" };
 AnimalRecord ar2 = new() { Name = "Rex" };
 WriteLine($"ar1 == ar2: {ar1 == ar2}");
+
+int number1 = 3;
+int number2 = 3;
+WriteLine($"number1: {number1}, number2: {number2}");
+WriteLine($"number1 == number2: {number1 == number2}");
 #endregion
