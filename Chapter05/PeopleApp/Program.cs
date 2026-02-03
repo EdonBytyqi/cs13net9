@@ -308,4 +308,8 @@ int number1 = 3;
 int number2 = 3;
 WriteLine($"number1: {number1}, number2: {number2}");
 WriteLine($"number1 == number2: {number1 == number2}");
+
+ImmutableAnimal oscar = new("Oscar", "Labrador");
+var (who, what) = oscar;
+WriteLine($"{who} is a {what}");
 #endregion

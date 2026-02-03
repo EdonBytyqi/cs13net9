@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f4ccfdc48fa3fbf442892eeff06a76194bd051f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46444a3e12bd404ced2293d035148fb81586d820")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
