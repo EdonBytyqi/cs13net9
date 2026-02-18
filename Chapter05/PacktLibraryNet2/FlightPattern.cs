@@ -24,7 +24,7 @@ public class FirstClassPassenger : Passenger
 
 public class CoachClassPassenger : Passenger
 {
-    public int CarryOnKG { get; set; }
+    public double CarryOnKG { get; set; }
     public override string ToString()
     {
         return $"Coach Class with {CarryOnKG:N0} KG carry on: {Name}";
