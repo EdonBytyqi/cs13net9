@@ -1,5 +1,5 @@
 ﻿using Packt.Shared;
-
+#region PeopleApp
 Person harry = new()
 {
     Name = "Harry",
@@ -51,3 +51,17 @@ if (edon + donjeta)
 
 Person baby3 = edon * donjeta;
 baby3.Name = "ArtiBoi";
+#endregion
+
+#region non-generic types
+System.Collections.Hashtable lookupObject = new();
+lookupObject.Add(key: 1, value: "Alpha");
+lookupObject.Add(key: 2, value: "Beta");
+lookupObject.Add(key: 3, value: "Gamma");
+lookupObject.Add(key: harry, value: "Delta");
+
+int key = 2; //Look up the value that has 2 as its key
+WriteLine(format: "Key {0} has value: {1}",
+    arg0: harry,
+    arg1: lookupObject[harry]);
+#endregion
