@@ -43,3 +43,11 @@ for (int i = 0; i < edon.Children.Count; i++)
 }
 
 harry.WriteToConsole();
+
+if (edon + donjeta)
+{
+    WriteLine($"{edon.Name} and {donjeta.Name} successfully got married.");
+}
+
+Person baby3 = edon * donjeta;
+baby3.Name = "ArtiBoi";
