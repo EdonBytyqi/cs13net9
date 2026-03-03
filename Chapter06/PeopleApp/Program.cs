@@ -62,6 +62,23 @@ lookupObject.Add(key: harry, value: "Delta");
 
 int key = 2; //Look up the value that has 2 as its key
 WriteLine(format: "Key {0} has value: {1}",
+    arg0: key,
+    arg1: lookupObject[key]);
+WriteLine(format: "Key {0} has value: {1}",
     arg0: harry,
     arg1: lookupObject[harry]);
+#endregion
+
+#region Generic types
+//Define a generic lookup collection
+Dictionary<int, string> lookupIntString = new();
+lookupIntString.Add(key: 1, value: "Alpha");
+lookupIntString.Add(key: 2, value: "Beta");
+lookupIntString.Add(key: 3, value: "Gamma");
+lookupIntString.Add(key: 4, value: "Delta");
+
+key = 3;
+WriteLine(format: "Key {0} has value: {1}",
+arg0: key,
+arg1: lookupIntString[key]);
 #endregion
