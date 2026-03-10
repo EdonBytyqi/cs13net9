@@ -83,4 +83,15 @@ arg0: key,
 arg1: lookupIntString[key]);
 #endregion
 
+#region Add method to Shout delegate
+// Assign the method to the Shout delegate.
+harry.Shout = Harry_Shout;
 
+// Call the Poke method that eventually raises the Shout event.
+harry.Poke();
+harry.Poke();
+harry.Poke();
+harry.Poke();
+harry.Poke();
+
+#endregion
