@@ -86,7 +86,7 @@ arg1: lookupIntString[key]);
 #region Add method to Shout delegate
 // Assign the method to the Shout delegate.
 harry.Shout += Harry_Shout;
-harry.Shout += Harry_Shout_2;
+harry.Shout += Harry_Shout2;
 // Call the Poke method that eventually raises the Shout event.
 harry.Poke();
 harry.Poke();
@@ -97,4 +97,23 @@ harry.Poke();
 
 
 
+#endregion
+
+#region Interfaces 
+//Comparing Objects while sorting
+Person?[] people =
+{
+    null,
+    new() { Name = "Simon" },
+    new() { Name = "Jenny" },
+    new() { Name = "Adam" },
+    new() { Name = null },
+    new() { Name = "Richard" }
+};
+
+OutputPeopleNames(people, "Initial list of people:");
+
+Array.Sort(people);
+
+OutputPeopleNames(people, "After sorting using Persons IComparable implementation: ");
 #endregion
