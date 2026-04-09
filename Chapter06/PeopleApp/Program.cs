@@ -116,4 +116,8 @@ OutputPeopleNames(people, "Initial list of people:");
 Array.Sort(people);
 
 OutputPeopleNames(people, "After sorting using Persons IComparable implementation: ");
+
+Array.Sort(people, new PersonComparer());
+
+OutputPeopleNames(people, "After sorting using PersonComparers IComparer implementation: ");
 #endregion
