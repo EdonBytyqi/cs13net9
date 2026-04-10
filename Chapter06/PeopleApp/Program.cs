@@ -121,3 +121,16 @@ Array.Sort(people, new PersonComparer());
 
 OutputPeopleNames(people, "After sorting using PersonComparers IComparer implementation: ");
 #endregion
+
+#region Inheriting from classes
+
+Employee john = new()
+{
+    Name = "John",
+    Born = new(year: 1990, month: 7, day: 28,
+        hour: 0, minute: 0, second: 0, offset: TimeSpan.Zero)
+};
+
+john.WriteToConsole();
+
+#endregion
